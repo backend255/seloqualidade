@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tarja{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(81, 130, 221);
+    border: 10px solid hsla(0,0%,100%,.6);
+    position:absolute;
+    top: 10px;
+    left: -135px;
+    transform: rotate(-45deg);
+}
+
+.tarja a{
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+}
+
+.tarja a .text{
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
